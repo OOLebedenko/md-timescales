@@ -93,7 +93,8 @@ def plot_figure_autocorr(time, fit_line, acorr):
 
 def get_plot_acorr_fit(path_to_fit_csv: str,
                        path_to_csv_acorr: str,
-                       order: int) -> None:
+                       order: int, 
+                       ind) -> None:
     """
     Plot one pdf with a particular fit function (e.g. tau-2-exp.pdf)
 
@@ -106,9 +107,9 @@ def get_plot_acorr_fit(path_to_fit_csv: str,
     exp_order = {2: "tau_2_exp", 3: "tau_3_exp", 4: "tau_4_exp"}
     csv_fit = os.path.join(path_to_fit_csv, exp_order[order] + ".csv")
     fit = pd.read_csv(csv_fit)
-    for _, fit_line in fit.iterrows():
-        # file = "{}/{:02d}_{}.csv".format(path_to_csv_acorr, fit_line["rId"], fit_line["aName"])
-        df = pd.read_csv(path_to_csv_acorr)
-        fig, ax = plot_figure_autocorr(df.time_ns, fit_line, df.acorr)
-        return fig, ax
-        
+    fit_line = fit.iloc[ind]
+    # file = "{}/{:02d}_{}.csv".format(path_to_csv_acorr, fit_line["rId"], fit_line["aName"])
+    df = pd.read_csv(path_to_csv_acorr)
+    fig, ax = plot_figure_autocorr(df.time_ns, fit_line, df.acorr)
+    return fig, ax
+    
