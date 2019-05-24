@@ -91,7 +91,7 @@ protein(h4,ubq)/water_model(spce,tip3p,tip4p-d,tip4p-ew)/ensemble(NVE,NVT,NPT_ga
   - All complete analyzed trajectories of molecular dynamics are not reproduce the experimental value coefficient of translational diffusion for ubq
     MD trajectory with parameters:
 
-| water model | ansamble |
+| water model | ensamble |
 | ------ | ------ |
 | spce | NVE |
 | tip4p-ew | NVE |
