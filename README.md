@@ -66,4 +66,20 @@ protein(h4,ubq)/water_model(spce,tip3p,tip4p-d,tip4p-ew)/ensemble(NVE,NVT,NPT_ga
   - autocorr - directory with makefiles for autocorrelation analysis
   - translational_diffusion - directory with makefiles for translational diffusion analysis
   
+## Current results 
+
+15 from 32 trajectories were complete analysed
+All complete analyzed trajectories of molecular dynamics are not reproduce the experimental value coefficient of translational diffusion for ubq
+MD trajectory with parameters:
+
+| water model | ansamble |
+| ------ | ------ |
+| spce | NVE |
+| tip4p-ew | NVE |
+| tip4p-ew | NPT gamma ln 2 |
+| tip4p-d | NVE |
+
+consistent with experimental value coefficient of rotational diffusion  for ubq
+
+
 
