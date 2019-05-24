@@ -44,29 +44,29 @@ protein(h4,ubq)/water_model(spce,tip3p,tip4p-d,tip4p-ew)/ensemble(NVE,NVT,NPT_ga
  
 1) Extraction part
 
-extract.py - set of library scripts for extraction autocorrelation function NH or CH3 groups, 
+  - extract.py - set of library scripts for extraction autocorrelation function NH or CH3 groups, 
              average autocorrelation function for set of vectors isotropic distributed over the spherical surface for rotational diffusion (overall thumbling),
              mean square displacement (msd) for translational diffusion
-calc.py - library scripts for calculation mean square displacement (msd)
-extract_autocorr.py - command-line interfaces for extraction autocorrelation function NH or CH3 groups
-extract_inertia_tensor_vectors_autocorr.py - command-line interfaces for extraction overall thumbling 
-extract_mass_center.py - command-line interfaces for extraction mass center coordinates
-calc_msd.py - command-line interfaces for calculation msd
+  - calc.py - library scripts for calculation mean square displacement (msd)
+  - extract_autocorr.py - command-line interfaces for extraction autocorrelation function NH or CH3 groups
+  - extract_inertia_tensor_vectors_autocorr.py - command-line interfaces for extraction overall thumbling 
+  - extract_mass_center.py - command-line interfaces for extraction mass center coordinates
+  - calc_msd.py - command-line interfaces for calculation msd
 
 2) Fit part
 
-fit.py - set of library scripts for fit autocorrelation function NH or CH3 groups, translational diffusion and rotational diffusion from MD trajectory
-fit_vector_acorr.py - command-line interfaces for fit autocorrelation function NH or CH3 groups
-fit_overall_tumbling.py - command-line interfaces fit extraction overall thumbling autocorrelation function
-fit_msd.py - command-line interfaces for fit mean square displacement
+  - fit.py - set of library scripts for fit autocorrelation function NH or CH3 groups, translational diffusion and rotational diffusion from MD trajectory
+  - fit_vector_acorr.py - command-line interfaces for fit autocorrelation function NH or CH3 groups
+  - fit_overall_tumbling.py - command-line interfaces fit extraction overall thumbling autocorrelation function
+  - fit_msd.py - command-line interfaces for fit mean square displacement
 
 
 3) Plot part
 
-plot.py - - set of library scripts for fit autocorrelation NH or CH3 groups, translational diffusion and rotational diffusion from MD trajectory
-plot_vector_acorr.py - command-line interfaces for plot autocorrelation function NH or CH3 groups and fit
-plot_overall_tumbling.py - command-line interfaces for plot ooverall thumbling autocorrelation function and fit
-plot_msd.py - command-line interfaces for plot mean square displacement and fit
+  - plot.py - - set of library scripts for fit autocorrelation NH or CH3 groups, translational diffusion and rotational diffusion from MD trajectory
+  - plot_vector_acorr.py - command-line interfaces for plot autocorrelation function NH or CH3 groups and fit
+  - plot_overall_tumbling.py - command-line interfaces for plot ooverall thumbling autocorrelation function and fit
+  - plot_msd.py - command-line interfaces for plot mean square displacement and fit
 
 **Analysis template**
 
