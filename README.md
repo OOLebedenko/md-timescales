@@ -113,4 +113,3 @@ consistent with experimental value coefficient of rotational diffusion  for ubq
 
 ![Farmers Market Finder Demo](https://drive.google.com/uc?id=1Pe0dM4rvj-cXOY9l1KwDZqcPZ_6XFGec)
 
-
