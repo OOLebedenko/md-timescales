@@ -70,7 +70,7 @@ protein(h4,ubq)/water_model(spce,tip3p,tip4p-d,tip4p-ew)/ensemble(NVE,NVT,NPT_ga
 
   - 15 from 32 trajectories were complete analysed:
   
-  | protein | water_model | ensemble          | tau_rot, ns | Dtr, m2/s" | 
+  | protein | water_model | ensemble          | tau_rot, ns | Dtr, m2/s | 
 |---------|-------------|-------------------|---------------|-------------| 
 | ubq     | tip4p-d     | NPT_gamma_ln_2    | 10.9          | 3.591E-11   | 
 | ubq     | tip4p-d     | NPT_gamma_ln_0.01 | 5.437         | 1.507E-09   | 
@@ -100,12 +100,12 @@ protein(h4,ubq)/water_model(spce,tip3p,tip4p-d,tip4p-ew)/ensemble(NVE,NVT,NPT_ga
 
 consistent with experimental value coefficient of rotational diffusion  for ubq
 
-### Translational diffusion coefficient for ubq. 
+### Translational diffusion coefficient for ubq
 ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) `Red line shows experimental value`
   ![](https://drive.google.com/uc?id=1m9XW8D_e406Ie20i87MWloMDXhuB0uyG)
 ### Translational diffusion coefficient for h4
   ![](https://drive.google.com/uc?id=1QLTAvWWf9etNZ532kfSH-ZhGawSLgCjb)
-### Rotational diffusion coefficient for ubq. 
+### Rotational diffusion coefficient for ubq
 ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) `Red line shows experimental value`
   ![](https://drive.google.com/uc?id=1Zf_LbIMv9xi2mqDink7YKs7-gI3kAJqU)
 
