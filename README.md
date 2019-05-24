@@ -30,7 +30,7 @@ Scripts may be used for analysing three types of motions: autocorrelation NH or 
 Second part includes makefiles for handling every types of motions from MD trajectory for ubq and h4. It is assumed that trajectory files has the fixed organization
 protein(h4,ubq)/water_model(spce,tip3p,tip4p-d,tip4p-ew)/ensemble(NVE,NVT,NPT_gamma_ln_0.01, NPT_gamma_ln_2)
 
-**Scripts**
+[**Scripts**](https://github.com/OOLebedenko/md-timescales/tree/master/md_timescales)
  
 1) Extraction part
 
@@ -57,6 +57,13 @@ protein(h4,ubq)/water_model(spce,tip3p,tip4p-d,tip4p-ew)/ensemble(NVE,NVT,NPT_ga
   - plot_vector_acorr.py - command-line interfaces for plot autocorrelation function NH or CH3 groups and fit
   - plot_overall_tumbling.py - command-line interfaces for plot ooverall thumbling autocorrelation function and fit
   - plot_msd.py - command-line interfaces for plot mean square displacement and fit
+  
 
-**Analysis template**
+[**Analysis template**](https://github.com/OOLebedenko/md-timescales/tree/master/analysis_template)
+
+  - makefile - main global makefile for run all types of analysis
+  - common.mk - main global configuration file 
+  - autocorr - directory with makefiles for autocorrelation analysis
+  - translational_diffusion - directory with makefiles for translational diffusion analysis
+  
 
