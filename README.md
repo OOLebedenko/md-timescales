@@ -109,7 +109,7 @@ consistent with experimental value coefficient of rotational diffusion  for ubq
 ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) `Red line shows experimental value`
   ![](https://drive.google.com/uc?id=1Zf_LbIMv9xi2mqDink7YKs7-gI3kAJqU)
 
-##Result vizualization
+## Result vizualization
 
-![Farmers Market Finder Demo](https://drive.google.com/uc?id=1Pe0dM4rvj-cXOY9l1KwDZqcPZ_6XFGec)
+![](https://drive.google.com/uc?id=1Pe0dM4rvj-cXOY9l1KwDZqcPZ_6XFGec)
 
