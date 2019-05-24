@@ -22,16 +22,6 @@ and ensemble (NVE, NVT, NPT gamma_ln=0.01,  NPT gamma_ln=2) in Amber ff14SB forc
 
 ## Methods
 
-Simple bash-script was written in order to download, unpack and extract desirable (p-value less then e-08) data from UK biobank 
-https://docs.google.com/spreadsheets/d/1b3oGI2lUt57BcuHttWaZotQcI0-mBRPyZihz87Ms_No/edit#gid=1209628142
-Yet another bash-script for extracted data merging was written and successfully executed. 
-Big table with all extracted data was analyzed with the help of phyton. To parse this tsv-file and unify strings with identical SNP phyton script was used.
-All scripts are presented in repository and they are correctly working. 
-Unfortunately, even archived file was too big for adding it to the current git repository, for this reason, data was uploaded to Google drive
-(https://drive.google.com/drive/folders/1bfQJ6X6sSNmHh0QfLi-7j9l2oh5e3Npa).	
-After that heatmap with phenotypes was builded (using Szymkiewicz–Simpson coefficient for common SNP).
-This heatmap was subjected to hierarchical clustering in order to find SNP associated with clusters instead of single phenotypes.
-The obtained data was used for further analysis (visualizing Manhattan plots, calculating MAF correlations, realization sliding clip in search of local maxima)
 
 ### Scripts description
 Code of the project may be divided in two principal parts. 
