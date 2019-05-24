@@ -68,7 +68,26 @@ protein(h4,ubq)/water_model(spce,tip3p,tip4p-d,tip4p-ew)/ensemble(NVE,NVT,NPT_ga
   
 ## Current results 
 
-  - 15 from 32 trajectories were complete analysed
+  - 15 from 32 trajectories were complete analysed:
+  
+  | protein | water_model | ensemble          | tau_rot, ns | Dtr, m2/s" | 
+|---------|-------------|-------------------|---------------|-------------| 
+| ubq     | tip4p-d     | NPT_gamma_ln_2    | 10.9          | 3.591E-11   | 
+| ubq     | tip4p-d     | NPT_gamma_ln_0.01 | 5.437         | 1.507E-09   | 
+| ubq     | tip4p-d     | NVE               | 4.383         | 3.405E-11   | 
+| ubq     | tip4p-ew    | NPT_gamma_ln_2    | 7.307         | 2.456E-11   | 
+| ubq     | tip4p-ew    | NPT_gamma_ln_0.01 | 4.065         | 1.668E-09   | 
+| ubq     | tip4p-ew    | NVE               | 3.595         | 3.397E-11   | 
+| ubq     | spce        | NVE               | 3.394         | 4.778E-11   | 
+| h4      | tip4p-d     | NPT_gamma_ln_2    |               | 5.424E-11   | 
+| h4      | tip4p-d     | NPT_gamma_ln_0.01 |               | 2.304E-09   | 
+| h4      | tip4p-d     | NVE               |               | 5.369E-11   | 
+| h4      | tip4p-ew    | NPT_gamma_ln_2    |               | 6.827E-10   | 
+| h4      | tip4p-ew    | NPT_gamma_ln_0.01 |               | 3.137E-09   | 
+| h4      | tip4p-ew    | NVE               |               | 8.345E-11   | 
+| h4      | tip4p-d     | NVT_gamma_ln_0.01 |               | 4.236E-09   | 
+| h4      | tip4p-ew    | NVT_gamma_ln_0.01 |               | 3.7E-09     |
+
   - All complete analyzed trajectories of molecular dynamics are not reproduce the experimental value coefficient of translational diffusion for ubq
     MD trajectory with parameters:
 
@@ -81,11 +100,13 @@ protein(h4,ubq)/water_model(spce,tip3p,tip4p-d,tip4p-ew)/ensemble(NVE,NVT,NPT_ga
 
 consistent with experimental value coefficient of rotational diffusion  for ubq
 
-### Translational diffusion coefficient for ubq. Red line shows experimental value
+### Translational diffusion coefficient for ubq. 
+![#f03c15](https://placehold.it/15/f03c15/000000?text=+) `Red line shows experimental value`
   ![](https://drive.google.com/uc?id=1m9XW8D_e406Ie20i87MWloMDXhuB0uyG)
 ### Translational diffusion coefficient for h4
   ![](https://drive.google.com/uc?id=1QLTAvWWf9etNZ532kfSH-ZhGawSLgCjb)
-### Rotational diffusion coefficient for ubq. Red line shows experimental value
+### Rotational diffusion coefficient for ubq. 
+![#f03c15](https://placehold.it/15/f03c15/000000?text=+) `Red line shows experimental value`
   ![](https://drive.google.com/uc?id=1Zf_LbIMv9xi2mqDink7YKs7-gI3kAJqU)
 
 
