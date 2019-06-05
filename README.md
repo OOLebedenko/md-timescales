@@ -113,3 +113,9 @@ consistent with experimental value coefficient of rotational diffusion  for ubq
 
 ![](https://drive.google.com/uc?id=1Pe0dM4rvj-cXOY9l1KwDZqcPZ_6XFGec)
 
+## Conclusions
+
+1) It was found out that some combinations of water models and statistical ensembles correctly simulate the process of rotational diffusion (overall tumbling): spce x NVE, tip4p-ew x NVE, tip4p-ew x NPT gamma_ln_2, tip4p-d x NVE
+
+2) Further studies of the translational diffusion process are required: either using other water models, or increasing the trajectory length of the molecular dynamics (and for ubq, and for h4). Moreover, for the peptide h4 it is necessary to obtain experimental values of the translational diffusion coefficient
+
